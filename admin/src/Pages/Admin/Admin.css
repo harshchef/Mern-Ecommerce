@@ -1,0 +1,55 @@
+/* Admin.css */
+.admin {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    /* Padding */
+}
+
+/* Sidebar style */
+.sidebar {
+    background-color: #f4f4f4;
+    /* Background color */
+    width: 200px;
+    /* Sidebar width */
+    padding: 20px;
+    /* Padding */
+}
+
+.sidebaritem {
+    margin-bottom: 20px;
+    /* Margin between sidebar items */
+}
+
+.sidebaritem p {
+    margin-top: 10px;
+    /* Margin between icon and text */
+    font-size: 16px;
+    /* Font size of the text */
+    color: #333;
+    /* Text color */
+}
+
+.sidebaritem img {
+    width: 40px;
+    /* Width of the icon */
+    height: 40px;
+    /* Height of the icon */
+    margin-right: 10px;
+    /* Margin between icon and text */
+}
+
+/* Main content area */
+.content {
+    flex-grow: 1;
+    /* Allow content area to grow */
+    padding: 20px;
+    /* Padding */
+    background-color: #ffffff;
+    /* Background color */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    /* Shadow effect */
+}
+
+/* Individual page styles (AddProduct and ListProduct) can be added here */

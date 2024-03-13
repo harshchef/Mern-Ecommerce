@@ -1,0 +1,28 @@
+/* Navbar.css */
+.navbar {
+    background-color: #ffffff;
+    /* Background color */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    /* Shadow effect */
+    padding: 15px 30px;
+    /* Padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 120px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.nav-profile {
+    width: 40px;
+    /* Adjust the width as needed */
+    height: 40px;
+    /* Adjust the height as needed */
+    border-radius: 50%;
+    /* Make the profile image circular */
+}
